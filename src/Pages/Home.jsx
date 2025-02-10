@@ -3,13 +3,13 @@ import Header from '../Components/Header';
 
 const Home = () => {
     return (
-        <div className="relative min-h-screen">
+        <div className="relative min-h-screen bg-black bg-opacity-60">
       <img
         src={logo}
         alt="Example"
-        className="absolute inset-0 w-full h-full object-cover opacity-50"
+        className="absolute inset-0 w-full h-full object-cover opacity-20"
       />
-      <div className="absolute inset-0 bg-[#C4C4C4] mix-blend-multiply"></div>
+      <div className="absolute inset-0  mix-blend-multiply"></div>
       <div className="relative z-10">
         <Header></Header>
       </div>

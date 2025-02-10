@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { MdError } from "react-icons/md";
 
 const ErrorElement = ({ message = "Something went wrong!" }) => {
